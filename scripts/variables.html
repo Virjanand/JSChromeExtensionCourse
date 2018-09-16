@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Variables</title>
+</head>
+<body>
+
+	<script type="text/javascript">
+		
+		var age = 10; // numbers
+		var name = "Alex"; // string
+		var lastname; // undefined
+		alert(lastname);
+		var empId = null; // null is different from undefined
+		var failed = false; // boolean
+		// symbol is a new type in JS
+
+		// Object data type
+		var car = {
+			"type" : "sedan",
+			"model" : 2018,
+			"color" : "blue"
+		}
+
+		document.write("the type of car is: " + car.type + "<br/>");
+		document.write("the model of car is: " + car.model + "<br/>");
+		document.write("the color of car is: " + car.color + "<br/>");
+
+		car.color = "red";
+
+		document.write("the color of car is:" + car.color + "<br/>");
+
+	</script>
+
+</body>
+</html>
